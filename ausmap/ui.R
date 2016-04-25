@@ -1,0 +1,7 @@
+
+
+shinyUI(fluidPage(
+
+ leafletOutput('plot')
+
+))
