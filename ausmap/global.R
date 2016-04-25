@@ -1,6 +1,7 @@
 library(shiny)
 library(leaflet)
 
+locations <- read.csv("data/HIA_nurseries.csv")
 
 ###data frame for nurserys and their coordinates(pin that dataframe)
 
